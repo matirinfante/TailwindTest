@@ -13,7 +13,36 @@
     <title>Test Travel</title>
 </head>
 <body>
-<p class="font-Montserrat text-xl">Hello, world</p>
-<div class="w-64 h-64 bg-red-900"></div>
+<nav></nav>
+<div id="#tab_bar"></div>
+
+<section class="w-full h-screen">
+    <div id="#home">
+        <div class="w-full h-3/4">
+            <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center ">
+                <input class="outline-none p-3 rounded-full shadow-sm text-center" placeholder="San Francisco"
+                       type="search" name="" id="">
+                <button class="w-36 rounded-full bg-white text-xl text-primary font-semibold p-4">Explore</button>
+            </div>
+            <div class="w-full h-full">
+                <img src="img/sanFrancisco.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="p-10" id="#recommended">
+        <div class="w-48 h-64 shadow-md rounded-lg">
+            <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
+            <div class="w-full h-2/5 bg-secondary rounded-b-lg flex flex-col justify-center gap-2 p-4">
+                <p class="text-white font-bold text-xl">Norway</p>
+                <p class="text-white text-md">Paisajes increibles</p>
+            </div>
+        </div>
+    </div>
+    <div id="#starred"></div>
+
+</section>
+<footer>
+
+</footer>
 </body>
 </html>
